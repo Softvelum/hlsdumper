@@ -1,4 +1,4 @@
-hlsdump
+HLS Dumper
 =======
 
 HLS playlist dumper
