@@ -15,3 +15,6 @@ Example 2 for various bitrates:
 In "output" dir there will be the stream, each beatrate will be stored separately with its own playlist and all the chunks.
 
 At the moment it works for VOD content only. Let us know if there's a need for live stream dumping, it's possible to implement that as well.
+
+
+This script is released under GPLv3 license: http://www.gnu.org/licenses/gpl.html
