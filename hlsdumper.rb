@@ -15,8 +15,11 @@ end
 def httpChecks(request)
   raise "Server returned code #{request.code}" unless request.code == "200"
 
-  raise "Wrong Content-type. We support only content-type=application/vnd.apple.mpegurl but #{request.header['content-type']} returned" unless
-      (request.header['content-type'] == 'application/vnd.apple.mpegurl' || request.header['content-type'] == 'video/MP2T')
+  raise "Wrong Content-type. We support only content-type=application/vnd.apple.mpegurl,audio/x-mpegurl,video/mp2t but #{request.header['content-type']} returned" unless
+      (request.header['content-type'] == 'application/vnd.apple.mpegurl' ||
+       request.header['content-type'] == 'video/MP2T' ||
+       request.header['content-type'] == 'audio/x-mpegurl' ||
+       request.header['content-type'] == 'video/mp2t')
 end
 
 def processPlaylist(http, url, output_dir)
@@ -42,7 +45,8 @@ def processPlaylist(http, url, output_dir)
   read_playlist = false
   load_ts_chunk = false
 
-  base_url = url[0, url.index(/\/[a-z]*.m3u8/)]
+  base_url = url[0, url.index(/\/[^\/]*.m3u8/)]
+
   chunk_count = 0
   dir_name = nil
   dir_count = 0
