@@ -18,3 +18,6 @@ At the moment it works for VOD content only. Let us know if there's a need for l
 
 
 This script is released under GPLv3 license: http://www.gnu.org/licenses/gpl.html
+
+
+Please also take a look at our Nimble HTTP Streamer, the HLS edge server: https://wmspanel.com/nimble
