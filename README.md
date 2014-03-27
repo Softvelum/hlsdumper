@@ -21,5 +21,4 @@ This script is released under GPLv3 license: http://www.gnu.org/licenses/gpl.htm
 
 
 Please also take a look at our Nimble HTTP Streamer: https://wmspanel.com/nimble
-
-It's the HTTP streaming server capable of MP4 transmuxing to HLS in VOD mode as origin and re-streaming HLS as edge server.
+It's the HTTP streaming server capable of MP4 transmuxing to VOD HLS, UDP MPEG-TS to ABR HLS generation and also re-streaming HLS as edge server.
