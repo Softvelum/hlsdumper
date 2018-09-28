@@ -17,8 +17,10 @@ In "output" dir there will be the stream, each beatrate will be stored separatel
 At the moment it works for VOD content only. Let us know if there's a need for live stream dumping, it's possible to implement that as well.
 
 
+
+Please also take a look at Nimble Streamer: https://wmspanel.com/nimble 
+
+It's a software media server capable of live and VOD streaming over various protocols. You can check all of its HLS features here: https://wmspanel.com/nimble/hls
+
+
 This script is released under GPLv3 license: http://www.gnu.org/licenses/gpl.html
-
-
-Please also take a look at our Nimble HTTP Streamer: https://wmspanel.com/nimble
-It's the HTTP streaming server capable of MP4 transmuxing to VOD HLS, UDP MPEG-TS to ABR HLS generation and also re-streaming HLS as edge server.
