@@ -18,9 +18,9 @@ At the moment it works for VOD content only. Let us know if there's a need for l
 
 
 
-Please also take a look at Nimble Streamer: https://wmspanel.com/nimble 
+Please also take a look at Nimble Streamer: https://softvelum.com/nimble/
 
-It's a software media server capable of live and VOD streaming over various protocols. You can check all of its HLS features here: https://wmspanel.com/nimble/hls
+It's a software media server capable of live and VOD streaming over various protocols. You can check all of its HLS features here: https://softvelum.com/nimble//hls/
 
 
 This script is released under GPLv3 license: http://www.gnu.org/licenses/gpl.html
